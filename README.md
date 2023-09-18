@@ -34,6 +34,34 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 
 ## Projects
 
+
+### [포켓북]
+
+* __사용자가 가진 책들을 저장하고 분류하는 서재 관리 어플리케이션__
+
+* RestAPI를 공부하면서 진행한 개인 프로젝트
+  
+* Detail: https://github.com/Seokwon5/PocketBook#readme
+
+* 기간
+
+    * 2023.08 ~ ing (리팩토링하며 계속 서비스 중)
+    
+* 내용
+
+    * __ 기능 구현__
+        
+        - Alamofire를 이용하여 네이버 OpenAPI를 요청하고 받아 사용자가 가진 책을 업로드
+          
+        - UserDefaults를 활용해 책 데이터 저장
+          
+        - 모든 책 정보를 TableView에 저장하고 filter 메소드로 분류
+          
+        - 현재 읽고 있는 책과 다 읽은 책을 CollectionView, TableView를 활용하여 홈 화면에 등록
+          
+        - SnapKit을 활용하여 UI 구현
+     
+
 ### [렘비]
 
 * __친구들의 MBTI를 저장해두고 관리하는 어플리케이션__
@@ -70,34 +98,6 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
         현재 이용자들이 자신의 친구들은 어떤 MBTI를 가장 많이 가지고 있는지 한눈에 볼 수 있도록 성격 순위를 매기기 위해 count를 이용하여 성격마다 개수를 파악한 뒤 List에 뿌려주는 기능을
         
         CoreData에 있는 mbti객체안에서 어떻게 String값으로 뽑아낼지, AppStorage를 써서 저장 단계에서 따로 저장을 할지에 대해 앞으로 리펙토링 단계에서 넣을 계획으로 있습니다.
-
-
-
-### [포켓북]
-
-* __사용자가 가진 책들을 저장하고 분류하는 서재 관리 어플리케이션__
-
-* RestAPI를 공부하면서 진행한 개인 프로젝트
-  
-* Detail: https://github.com/Seokwon5/PocketBook#readme
-
-* 기간
-
-    * 2023.08 ~ ing (리팩토링하며 계속 서비스 중)
-    
-* 내용
-
-    * __ 기능 구현__
-        
-        - Alamofire를 이용하여 네이버 OpenAPI를 요청하고 받아 사용자가 가진 책을 업로드
-          
-        - UserDefaults를 활용해 책 데이터 저장
-          
-        - 모든 책 정보를 TableView에 저장하고 filter 메소드로 분류
-          
-        - 현재 읽고 있는 책과 다 읽은 책을 CollectionView, TableView를 활용하여 홈 화면에 등록
-          
-        - SnapKit을 활용하여 UI 구현
    
 <br></br>
 
