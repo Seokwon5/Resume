@@ -78,6 +78,8 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 * __사용자가 가진 책들을 저장하고 분류하는 서재 관리 어플리케이션__
 
 * RestAPI를 공부하면서 진행한 개인 프로젝트
+  
+* Detail: https://github.com/Seokwon5/PocketBook#readme
 
 * 기간
 
