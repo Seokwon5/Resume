@@ -27,10 +27,10 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
   - Xcode
  
 * Programming Skills
- - UIKit, SwiftUI
- - Snapkit, Alamofire
- - RestAPI
- - UserDefaults, Coredata, Firebase, Database
+  - UIKit, SwiftUI
+  - Snapkit, Alamofire
+  - RestAPI
+  - UserDefaults, Coredata, Firebase, Database
 
 ## Projects
 
