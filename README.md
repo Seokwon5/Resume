@@ -21,8 +21,13 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 ## Skills
 
 * Programming Language
-  * Swift
-  * SwiftUI
+  - SwiftUI
+ 
+* Programming Tool
+  - Xcode
+ 
+* Programming Skills
+  - 
 
 ## Projects
 
