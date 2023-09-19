@@ -74,32 +74,33 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 
     * 2023.01 ~ ing (리팩토링하며 계속 서비스 중)
     
-
- * __ 기능 구현 __
+* 내용
+  
+   * __ 기능 구현 __
       
- CoreData
-- Coredata를 적용하여 데이터의 CRUD(생성, 읽기, 업데이트,삭제) 작업을 구현하였습니다.
-- ObservableObject 프로토콜을 채택하여 SwiftUI에서 저장된 데이터를 관찰할 수 있도록 구현하였습니다.
+     CoreData
+       - Coredata를 적용하여 데이터의 CRUD(생성, 읽기, 업데이트,삭제) 작업을 구현하였습니다.
+       - ObservableObject 프로토콜을 채택하여 SwiftUI에서 저장된 데이터를 관찰할 수 있도록 구현하였습니다.
 
-ListView
-- @FetchRequest 프로퍼티 래퍼를 사용하여 모델의 객체들을 가져왔습니다.
-- FetchedResults 타입을 통해 CoreData의 fetchRequest의 결과를 구현하였습니다.
+     ListView
+       - @FetchRequest 프로퍼티 래퍼를 사용하여 모델의 객체들을 가져왔습니다.
+       - FetchedResults 타입을 통해 CoreData의 fetchRequest의 결과를 구현하였습니다.
 
-Picker
-- picker를 이용하여 데이터를 저장하기 위해 상태변수와 바인딩하였습니다.
+     Picker
+       - picker를 이용하여 데이터를 저장하기 위해 상태변수와 바인딩하였습니다.
 
-NSSortDescriptor
-- Picker를 이용하여 정렬 기준을 선택하도록 NSSortDescriptor메소드를 이용하여 구현하였습니다.
+     NSSortDescriptor
+       - Picker를 이용하여 정렬 기준을 선택하도록 NSSortDescriptor메소드를 이용하여 구현하였습니다.
 
-NSPredicate
-- 같은 mbti를 가진 객체들을 필터링 하여 볼 수 있도록 FetchRequest의 NSPredicate 메소드를 이용하여 가져오는 데이터의 기준을 설정하였습니다.
+     NSPredicate
+       - 같은 mbti를 가진 객체들을 필터링 하여 볼 수 있도록 FetchRequest의 NSPredicate 메소드를 이용하여 가져오는 데이터의 기준을 설정하였습니다.
 
 
-* __ 오류 해결 __
+      * __ 오류 해결 __
  
-   - MBTI를 저장한 뒤, 같은 성격을 가진 사람들을 모아보는 기능을 만들어 이용자들이 성격별로 지인들을 한눈에 볼 수 있도록 모든 MBTI성격모델을 만들고 CoreData안의 mbti객체와       
-   - 같은 성격일 경우에만 뿌려주는 FetchResult 데이터 구조를 만들던 중, predicate에 조건문을 달았을 경우 MBTI모델을 읽기 전 FetchRequest가 먼저 실행 되는 오류를        
-   - 해결하기 위해 구글링을 하여 init메소드를 따로 설정하는 방법으로 먼저 predicate 조건을 읽고 그 뒤에 fetchRequest가 실행되도록 하였습니다.
+        - MBTI를 저장한 뒤, 같은 성격을 가진 사람들을 모아보는 기능을 만들어 이용자들이 성격별로 지인들을 한눈에 볼 수 있도록 모든 MBTI성격모델을 만들고 CoreData안의 mbti객체와       
+        - 같은 성격일 경우에만 뿌려주는 FetchResult 데이터 구조를 만들던 중, predicate에 조건문을 달았을 경우 MBTI모델을 읽기 전 FetchRequest가 먼저 실행 되는 오류를        
+        - 해결하기 위해 구글링을 하여 init메소드를 따로 설정하는 방법으로 먼저 predicate 조건을 읽고 그 뒤에 fetchRequest가 실행되도록 하였습니다.
 
    
 <br></br>
