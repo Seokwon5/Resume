@@ -80,6 +80,8 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 
 * SwiftUI를 공부하면서 진행한 개인 프로젝트
 
+* Detail: https://github.com/Seokwon5/Rembi/blob/main/README.md
+
 * 기간
 
     * 2023.01 ~ ing (리팩토링하며 계속 서비스 중)
