@@ -55,11 +55,11 @@ __프로그래밍 언어 Java 와 swift에 관심이 많고 꾸준히 공부하�
 
     * __ 기능 구현__
         
-        - Alamofire를 이용하여 네이버 OpenAPI를 요청하고 받아 사용자가 가진 책을 업로드
+        - Spring Boot와 JPA를 활용하여 게시글과 댓글 간 일대다 관계, Auditing기능을 구현하고 Lombok을 활용하여 간결한 코드로 작성
           
-        - UserDefaults를 활용해 책 데이터 저장
+        - Java를 활용하여 컨트롤러를 통해 생성자 주입 및 게시글 관련 글과 댓글을 작성, 수정, 삭제 기능을 구현.
           
-        - 모든 책 정보를 TableView에 저장하고 filter 메소드로 분류
+        - Spring Security를 설정하여 URL 접근 권한 및 로그인, 로그아웃 기능을 정의하고 구현
           
         - 현재 읽고 있는 책과 다 읽은 책을 CollectionView, TableView를 활용하여 홈 화면에 등록
           
