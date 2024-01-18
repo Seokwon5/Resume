@@ -3,9 +3,9 @@
 
 안녕하세요 🙇🏻 
 
-IOS 개발자 이석원 입니다.
+백엔드 개발자 이석원 입니다.
 
-__프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공부하고 있습니다.
+__프로그래밍 언어 Java 와 swift에 관심이 많고 꾸준히 공부하고 있습니다.
 
 * Email : tjrdnjs5@gmail.com
 * Notion : https://www.notion.so/0e13608d975f49409fac39e306355e42?pvs=4
