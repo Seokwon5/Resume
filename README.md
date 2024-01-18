@@ -12,7 +12,7 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 
 ## Education
 
-* 동국대학교 경주캠퍼스 컴퓨터공학과 4학년 졸업 
+* 동국대학교 wise캠퍼스 컴퓨터공학과 4학년 졸업 
   * 2016.03 ~ 2022.02
 
 * 서울경신고등학교 졸업
@@ -21,12 +21,19 @@ __프로그래밍 언어 Swift__ 와 swiftUI 에 관심이 많고 꾸준히 공�
 ## Skills
 
 * Programming Language
-  - SwiftUI
+  - Java
+  - Swift
  
 * Programming Tool
+  - Intellij
+  - Eclipse
   - Xcode
  
 * Programming Skills
+
+  - Spring boot
+  - MySql
+  - Lombok, Thymeleaf
   - UIKit, SwiftUI
   - Snapkit, Alamofire
   - RestAPI
